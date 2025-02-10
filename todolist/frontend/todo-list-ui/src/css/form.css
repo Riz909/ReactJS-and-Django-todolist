@@ -1,0 +1,86 @@
+.form-controll{
+    display: flex;
+}
+input[type="text"]{
+    width: 100%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 2px rgb(58, 55, 55) solid;
+    background-color: whitesmoke;
+    text-align: right;
+}
+.mr-1{
+    margin-right: 10px;
+}
+.btn-regular{
+    background-color: whitesmoke;
+    border: 2px rgb(58, 55, 55) solid;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color: rgb(58, 55, 55);
+    cursor: pointer;
+}
+.btn-regular:hover{
+    background-color: rgb(58, 55, 55);
+    color: whitesmoke;
+}
+.update-form{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 7px 7px;
+}
+h1{
+    text-align: center;
+}
+.btn-flex{
+    display: flex;
+    padding: 5px;
+}
+.update-input{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-control-wrapper{
+    margin-top: 10%;
+}
+.checkbox-wrapper{
+    align-items: center;
+    justify-content: space-between;
+}
+.mt-3{
+    margin-top: 30px;
+}
+
+
+.success-alert{
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(185, 255, 202);
+    border-radius: 5px;
+    border: 2px rgb(58, 55, 55) dashed;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: none;
+}
+.success-alert.show {
+    display: block; 
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    .update-form{
+        width: 90%;
+    }
+}

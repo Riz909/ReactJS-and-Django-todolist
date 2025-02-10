@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+body{
+  font-family: 'Love Ya Like A Sister', sans-serif;
+  background-color: blanchedalmond;
+  color: rgb(58, 55, 55);
+}
+input,button{
+  font-family: 'Love Ya Like A Sister', sans-serif;
+}

@@ -1,0 +1,48 @@
+.container input[type="checkbox"] {
+    display: none;
+}
+.container .custom-checkbox {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #888;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.container input[type="checkbox"]:checked + .custom-checkbox {
+    background-color: rgb(58, 55, 55);  
+    border-color: rgb(58, 55, 55);
+}
+.container input[type="checkbox"]:checked + .custom-checkbox::after {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 3px;
+    width: 7px;
+    height: 13px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+.container .custom-checkbox:hover {
+    border-color: rgb(58, 55, 55);
+}
+.group{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+.btn-icon{
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 40%;
+    padding: 5px;
+}
+.btn-icon:hover{
+    background-color: rgb(58, 55, 55);
+    color: whitesmoke;
+}
